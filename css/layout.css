@@ -34,13 +34,3 @@ body {
   display: flex;
   align-items: center;
 }
-
-.jumbotron .container {
-    color: rgba(255,255,255,0.5); 
-    -webkit-transition: color linear .5s; /* Safari */
-    transition: color linear .5s;
-}
-
-.jumbotron .container:hover {
-    color: rgba(255,255,255,1.0);
-}
