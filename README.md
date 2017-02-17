@@ -1,6 +1,6 @@
 # donkilu.github.io
-For Github Pages testing
+Eric Lu's personal Webpage
 
 Site is published at http://donkilu.github.io
 
-using jQuery 1.11.2, bootstrap v3.3.4
+using jQuery 3.1.1, bootstrap v3.3.7

@@ -1,0 +1,46 @@
+/* Space out content a bit */
+body {
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+    
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #FFFAFA;
+}
+
+/* Pic Jumbotron */
+.jumbotron {
+  min-height: 600px;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  background: url("../img/maple.jpg") no-repeat center center;
+  background-size: cover;
+  color: white; 
+  text-shadow: 0px 0px 8px #000000;
+}
+
+.vertical-center {
+  min-height: 80%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 80vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron .container {
+    color: rgba(255,255,255,0.5); 
+    -webkit-transition: color linear .5s; /* Safari */
+    transition: color linear .5s;
+}
+
+.jumbotron .container:hover {
+    color: rgba(255,255,255,1.0);
+}

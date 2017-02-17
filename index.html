@@ -1,76 +1,94 @@
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Eric Lu 呂羿熹</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/layout.css" type="text/css" />
+</head>
+<body>
 
-  <head>
-    <title>Oasis Technology</title>
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
-    <meta http-equiv="Content-Language" value="zh-TW" />
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <!-- Custom styles -->
-    <link href="layout.css" rel="stylesheet" />
-  </head>
-
-  <body>
-    <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="index.html">Home</a></li>
-            <li role="presentation"><a href="oasis/about.html">About</a></li>
-            <li role="presentation"><a href="oasis/contact.html">Contact</a></li>
-          </ul>
-        </nav>
-        <h3 class="text-muted"><img src="img/logo.jpg" height="40" width="40" style="margin-right:10px">شركة أويسيس تكنولوجي المحدودة</img></h3>
-      </div>
-
-      <div class="jumbotron">
-        <h1>Oasis Technology</h1>
-        <p class="lead">Discover Arab with Us</p>
-        <p><a class="btn" href="oasis/about.html" role="button">Learn More</a></p>
-      </div>
-	  <!-- Gallery -->
-	  <ul class="row">
-		<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4" style="padding: 0px;"><img src="img/Burj_Khaleefah_night.jpg" width="100%" /></li>
-		<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4" style="padding: 0px;"><img src="img/UAE.jpg" width="100%" /></li>
-		<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4" style="padding: 0px;"><img src="img/old_Sanaa.jpg" width="100%" /></li>
-		<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4" style="padding: 0px;"><img src="img/Mecca.jpg" width="100%" /></li>
-		<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4" style="padding: 0px;"><img src="img/island.jpg" width="100%" /></li>
-		<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4" style="padding: 0px;"><img src="img/white_mosque.jpg" width="100%" /></li>
-	  </ul>
-	  
-      <footer class="footer">
-        <p>&copy; Oasis Technology Company Limited 2015<img src="img/logo.jpg" height="16" width="16" style="margin-left: 5px; margin-bottom: 4px" /></p>
-      </footer>
+<nav class="navbar navbar-light">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Eric Lu</a>
     </div>
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">         
-          <div class="modal-body">                
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-  </body>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="https://donkinotes.blogspot.com/">Blog</a></li>
+        <li><a href="https://www.flickr.com/photos/65218465@N08">Photos</a></li>
+        <li><a href="https://github.com/donkilu">Github</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-  <script src="jquery/jquery-1.11.2.min.js"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
-  <script language=javascript>
-   $(document).ready(function(){
-	   $('li img').on('click',function(){
-			var src = $(this).attr('src');
-			var img = '<img src="' + src + '" class="img-responsive" />';
-			$('#myModal').modal();
-			$('#myModal').on('shown.bs.modal', function(){
-				$('#myModal .modal-body').html(img);
-			});
-			$('#myModal').on('hidden.bs.modal', function(){
-				$('#myModal .modal-body').html('');
-			});
-	   });  
-	})  
-  </script>
+<div class="jumbotron vertical-center">
+  <div class="container text-center">
+    <h1>Yi-Hsi Lu (Eric)</h1>      
+    <p>UT Austin ECE Master Student</p>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">
+    <h3>About Me</h3><br>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <h3>Some of my Work</h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
 </html>
